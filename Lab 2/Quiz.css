@@ -1,0 +1,65 @@
+body {
+    background-color: gray;
+}
+
+#box {
+    height: 500px;
+    width: 50%;
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 23%;
+    margin-top: 3%;
+    padding: 10px 30px 30px 30px;
+}
+
+header h1 {
+    text-align: center;
+    height: 70px;
+    width: autopx;
+    border: 1px solid rgb(4, 48, 4);
+    background-color: rgb(4, 48, 4);
+    color: white;
+    font-size: 36pt;
+}
+
+#center {
+    margin: 15px;
+}
+
+#btn0,
+#btn1,
+#btn2,
+#btn3 {
+    color: white;
+    background-color: rgb(58, 172, 243);
+    margin: 10px;
+    height: 40px;
+    width: 250px;
+    padding: 5px;
+    font-size: 20pt;
+}
+
+#btn0:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+    color: white;
+    background-color: rgb(3, 90, 145);
+}
+
+#btn0:focus,
+#btn1:focus,
+#btn2:focus,
+#btn3:focus {
+    outline: 0;
+}
+
+#question {
+    font-size: 24pt;
+    color: rgb(58, 172, 243);
+}
+
+#progress {
+    font-size: 14pt;
+    color: black;
+}
